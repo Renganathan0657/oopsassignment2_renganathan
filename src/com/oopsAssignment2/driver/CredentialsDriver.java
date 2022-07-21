@@ -2,13 +2,13 @@ package com.oopsAssignment2.credentials.driver;
 
 import java.util.Scanner;
 
-import com.oopsAssignment2.credentials.model.Employee;
+import com.oopsAssignment2.credentials.model.EmployeeCredentials;
 import com.oopsAssignment2.credentials.service.CredentialService;
 
 public class CredentialsDriver {
 
 	public static void main(String[] args) {
-		Employee employee = new Employee("Barath", "Hitman");// TODO Auto-generated method stub
+		EmployeeCredentials employee = new EmployeeCredentials("Barath", "Hitman");
 		CredentialService cs = new CredentialService();
 		String generatedEmail;
 		char[]generatedPassword;
