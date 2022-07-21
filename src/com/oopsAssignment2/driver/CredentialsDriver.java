@@ -1,11 +1,11 @@
-package com.oopsAssignment2.driver;
+package com.oopsAssignment2.credentials.driver;
 
 import java.util.Scanner;
 
-import com.oopsAssignment2.model.Employee;
-import com.oopsAssignment2.service.CredentialService;
+import com.oopsAssignment2.credentials.model.Employee;
+import com.oopsAssignment2.credentials.service.CredentialService;
 
-public class Driver {
+public class CredentialsDriver {
 
 	public static void main(String[] args) {
 		Employee employee = new Employee("Barath", "Hitman");// TODO Auto-generated method stub
