@@ -1,6 +1,6 @@
-package com.oopsAssignment2.credentialModel;
+package com.oopsAssignment2.model;
 
-public class EmployeeCredentials {
+public class Employee {
 private String firstName;
 private String lastName;
 public Employee (String firstName, String lastName) {
