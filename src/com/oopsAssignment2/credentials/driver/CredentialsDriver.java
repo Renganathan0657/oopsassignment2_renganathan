@@ -8,7 +8,7 @@ import com.oopsAssignment2.credentials.service.CredentialService;
 public class CredentialsDriver {
 
 	public static void main(String[] args) {
-		EmployeeCredentials employee = new EmployeeCredentials("Barath", "Hitman");
+		EmployeeCredentials employee = new EmployeeCredentials("Barath", "GV");
 		CredentialService cs = new CredentialService();
 		String generatedEmail;
 		char[]generatedPassword;
