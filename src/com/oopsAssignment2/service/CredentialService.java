@@ -1,8 +1,8 @@
-package com.oopsAssignment2.service;
+package com.oopsAssignment2.credentials.service;
 
 import java.util.Random;
 
-import com.oopsAssignment2.model.Employee;
+import com.oopsAssignment2.credentials.model.EmployeeCredentials;
 
 public class CredentialService {
 public String generateEmailAddress (String firstName, String lastName, String department){
