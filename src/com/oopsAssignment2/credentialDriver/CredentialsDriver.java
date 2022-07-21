@@ -1,9 +1,9 @@
-package com.oopsAssignment2.credentials.driver;
+package com.oopsAssignment2.credentialDriver;
 
 import java.util.Scanner;
 
-import com.oopsAssignment2.credentials.model.EmployeeCredentials;
-import com.oopsAssignment2.credentials.service.CredentialService;
+import com.oopsAssignment2.credentialModel.EmployeeCredentials;
+import com.oopsAssignment2.credentialService.CredentialService;
 
 public class CredentialsDriver {
 
